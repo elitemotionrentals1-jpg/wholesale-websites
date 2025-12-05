@@ -74,3 +74,4 @@ websites sample/
 - Checkout is a demo - in production, this would connect to a payment processor
 - Both sites are fully functional and ready to use
 
+# wholesale-websites
