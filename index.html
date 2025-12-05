@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kitchen Appliances & Tools Wholesale - B2B Supplier</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Top Site Navigation -->
+    <div class="top-site-nav">
+        <div class="container">
+            <a href="index.html" class="site-nav-btn active">KitchenPro Wholesale</a>
+            <a href="sneakers/index.html" class="site-nav-btn">SneakerHub Wholesale</a>
+            <a href="cabinetry/index.html" class="site-nav-btn">Vida Cabinetry & Flooring</a>
+        </div>
+    </div>
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <div class="logo">
+                    <h1>KitchenPro Wholesale</h1>
+                    <span class="tagline">Appliances & Tools B2B Supplier</span>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="cart-icon" onclick="toggleCart()">
+                    <span class="cart-count" id="cartCount">0</span>
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="9" cy="21" r="1"></circle>
+                        <circle cx="20" cy="21" r="1"></circle>
+                        <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+                    </svg>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h2>Kitchen Appliances & Tools</h2>
+                <p class="hero-subtitle">Wholesale Prices for Store Owners & Retailers</p>
+                <p class="hero-description">Source high-quality kitchen appliances, tools, and accessories at competitive wholesale prices. Perfect for retailers, distributors, and store owners.</p>
+                <a href="#products" class="cta-button">Browse Products</a>
+            </div>
+        </section>
+
+        <section id="products" class="products-section">
+            <div class="container">
+                <h2 class="section-title">Our Product Range</h2>
+                <p class="section-subtitle">Kitchen appliances and tools sold in bulk</p>
+                
+                <div class="products-grid">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="https://images.unsplash.com/photo-1574269909862-7e1d70bb8078?w=800&h=600&fit=crop" alt="Microwave Oven">
+                        </div>
+                        <div class="product-info">
+                            <h3>Microwave Ovens</h3>
+                            <p class="product-description">High-quality countertop microwave ovens. Multiple power levels, defrost function, and easy-to-use controls.</p>
+                            <div class="product-specs">
+                                <span>Capacity: 0.7 - 2.2 cu ft</span>
+                                <span>Power: 700W - 1200W</span>
+                            </div>
+                            <div class="product-pricing">
+                                <span class="price">$85-150</span>
+                                <span class="wholesale-badge">Wholesale</span>
+                            </div>
+                            <div class="min-order">Minimum Order: 25 units</div>
+                            <button class="add-to-cart" onclick="addToCart('Microwave Oven', 85, 'https://images.unsplash.com/photo-1574269909862-7e1d70bb8078?w=800&h=600&fit=crop')">
+                                Add to Cart
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="https://images.unsplash.com/photo-1608039829573-8036c7b6ecc5?w=800&h=600&fit=crop" alt="Air Fryer">
+                        </div>
+                        <div class="product-info">
+                            <h3>Air Fryers</h3>
+                            <p class="product-description">Digital air fryers with rapid air technology. Healthier cooking with less oil. Multiple preset functions.</p>
+                            <div class="product-specs">
+                                <span>Capacity: 3.7 - 6 qt</span>
+                                <span>Temperature: 180°F - 400°F</span>
+                            </div>
+                            <div class="product-pricing">
+                                <span class="price">$65-120</span>
+                                <span class="wholesale-badge">Wholesale</span>
+                            </div>
+                            <div class="min-order">Minimum Order: 25 units</div>
+                            <button class="add-to-cart" onclick="addToCart('Air Fryer', 65, 'https://images.unsplash.com/photo-1608039829573-8036c7b6ecc5?w=800&h=600&fit=crop')">
+                                Add to Cart
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="https://images.unsplash.com/photo-1572490122747-3968b75cc699?w=800&h=600&fit=crop" alt="Blender">
+                        </div>
+                        <div class="product-info">
+                            <h3>Blenders</h3>
+                            <p class="product-description">High-performance blenders with powerful motors. Perfect for smoothies, soups, and food processing.</p>
+                            <div class="product-specs">
+                                <span>Power: 600W - 1500W</span>
+                                <span>Capacity: 32oz - 64oz</span>
+                            </div>
+                            <div class="product-pricing">
+                                <span class="price">$45-95</span>
+                                <span class="wholesale-badge">Wholesale</span>
+                            </div>
+                            <div class="min-order">Minimum Order: 25 units</div>
+                            <button class="add-to-cart" onclick="addToCart('Blender', 45, 'https://images.unsplash.com/photo-1572490122747-3968b75cc699?w=800&h=600&fit=crop')">
+                                Add to Cart
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="https://images.unsplash.com/photo-1609501676725-718402b4e616?w=800&h=600&fit=crop" alt="Kitchen Tools Set">
+                        </div>
+                        <div class="product-info">
+                            <h3>Kitchen Tools Set</h3>
+                            <p class="product-description">Complete kitchen tool sets including spatulas, spoons, tongs, whisks, and more. Stainless steel construction.</p>
+                            <div class="product-specs">
+                                <span>Pieces: 15 - 30 piece sets</span>
+                                <span>Material: Stainless Steel / Silicone</span>
+                            </div>
+                            <div class="product-pricing">
+                                <span class="price">$25-55</span>
+                                <span class="wholesale-badge">Wholesale</span>
+                            </div>
+                            <div class="min-order">Minimum Order: 25 units</div>
+                            <button class="add-to-cart" onclick="addToCart('Kitchen Tools Set', 25, 'https://images.unsplash.com/photo-1609501676725-718402b4e616?w=800&h=600&fit=crop')">
+                                Add to Cart
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="https://images.unsplash.com/photo-1606914469633-bd39238ea463?w=800&h=600&fit=crop" alt="Coffee Maker">
+                        </div>
+                        <div class="product-info">
+                            <h3>Coffee Makers</h3>
+                            <p class="product-description">Programmable coffee makers with thermal carafes. Multiple brew sizes and strength settings.</p>
+                            <div class="product-specs">
+                                <span>Capacity: 8 - 12 cups</span>
+                                <span>Features: Programmable / Auto Shut-off</span>
+                            </div>
+                            <div class="product-pricing">
+                                <span class="price">$55-110</span>
+                                <span class="wholesale-badge">Wholesale</span>
+                            </div>
+                            <div class="min-order">Minimum Order: 25 units</div>
+                            <button class="add-to-cart" onclick="addToCart('Coffee Maker', 55, 'https://images.unsplash.com/photo-1606914469633-bd39238ea463?w=800&h=600&fit=crop')">
+                                Add to Cart
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="https://images.unsplash.com/photo-1600857062241-98c5ef86b1e4?w=800&h=600&fit=crop" alt="Toaster">
+                        </div>
+                        <div class="product-info">
+                            <h3>Toasters</h3>
+                            <p class="product-description">2-slice and 4-slice toasters with multiple browning settings. Wide slots for bagels and thick bread.</p>
+                            <div class="product-specs">
+                                <span>Slots: 2-slice / 4-slice</span>
+                                <span>Features: Bagel Mode / Defrost</span>
+                            </div>
+                            <div class="product-pricing">
+                                <span class="price">$35-75</span>
+                                <span class="wholesale-badge">Wholesale</span>
+                            </div>
+                            <div class="min-order">Minimum Order: 25 units</div>
+                            <button class="add-to-cart" onclick="addToCart('Toaster', 35, 'https://images.unsplash.com/photo-1600857062241-98c5ef86b1e4?w=800&h=600&fit=crop')">
+                                Add to Cart
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="https://images.unsplash.com/photo-1602143407151-7111542de6e8?w=800&h=600&fit=crop" alt="Food Processor">
+                        </div>
+                        <div class="product-info">
+                            <h3>Food Processors</h3>
+                            <p class="product-description">Multi-functional food processors with various attachments. Perfect for chopping, slicing, and mixing.</p>
+                            <div class="product-specs">
+                                <span>Capacity: 7 - 14 cups</span>
+                                <span>Power: 500W - 1000W</span>
+                            </div>
+                            <div class="product-pricing">
+                                <span class="price">$75-140</span>
+                                <span class="wholesale-badge">Wholesale</span>
+                            </div>
+                            <div class="min-order">Minimum Order: 25 units</div>
+                            <button class="add-to-cart" onclick="addToCart('Food Processor', 75, 'https://images.unsplash.com/photo-1602143407151-7111542de6e8?w=800&h=600&fit=crop')">
+                                Add to Cart
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="https://images.unsplash.com/photo-1604382355076-af4b0eb60143?w=800&h=600&fit=crop" alt="Stand Mixer">
+                        </div>
+                        <div class="product-info">
+                            <h3>Stand Mixers</h3>
+                            <p class="product-description">Heavy-duty stand mixers with multiple attachments. Perfect for baking and food preparation.</p>
+                            <div class="product-specs">
+                                <span>Power: 300W - 1000W</span>
+                                <span>Bowl Capacity: 4.5 - 7 qt</span>
+                            </div>
+                            <div class="product-pricing">
+                                <span class="price">$120-250</span>
+                                <span class="wholesale-badge">Wholesale</span>
+                            </div>
+                            <div class="min-order">Minimum Order: 25 units</div>
+                            <button class="add-to-cart" onclick="addToCart('Stand Mixer', 120, 'https://images.unsplash.com/photo-1604382355076-af4b0eb60143?w=800&h=600&fit=crop')">
+                                Add to Cart
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="https://images.unsplash.com/photo-1609501676725-718402b4e616?w=800&h=600&fit=crop" alt="Cutting Boards">
+                        </div>
+                        <div class="product-info">
+                            <h3>Cutting Boards</h3>
+                            <p class="product-description">Premium cutting boards in various sizes. Made from bamboo, wood, or plastic. Easy to clean and maintain.</p>
+                            <div class="product-specs">
+                                <span>Sizes: Small / Medium / Large</span>
+                                <span>Material: Bamboo / Wood / Plastic</span>
+                            </div>
+                            <div class="product-pricing">
+                                <span class="price">$12-35</span>
+                                <span class="wholesale-badge">Wholesale</span>
+                            </div>
+                            <div class="min-order">Minimum Order: 25 units</div>
+                            <button class="add-to-cart" onclick="addToCart('Cutting Board', 12, 'https://images.unsplash.com/photo-1609501676725-718402b4e616?w=800&h=600&fit=crop')">
+                                Add to Cart
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about-section">
+            <div class="container">
+                <h2 class="section-title">Why Choose Us</h2>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">📦</div>
+                        <h3>Bulk Pricing</h3>
+                        <p>Competitive wholesale prices for large orders. Volume discounts available.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🚚</div>
+                        <h3>Fast Shipping</h3>
+                        <p>Quick delivery to your warehouse or job site. Nationwide coverage.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">✅</div>
+                        <h3>Quality Guaranteed</h3>
+                        <p>Premium materials sourced directly from trusted manufacturers.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">💼</div>
+                        <h3>B2B Focus</h3>
+                        <p>Designed for store owners, contractors, and distributors.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <h2 class="section-title">Get in Touch</h2>
+                <p class="section-subtitle">Ready to place a wholesale order? Contact our sales team.</p>
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <strong>Email:</strong> sales@kitchenpro.com
+                    </div>
+                    <div class="contact-item">
+                        <strong>Phone:</strong> 1-800-KITCHEN
+                    </div>
+                    <div class="contact-item">
+                        <strong>Minimum Order:</strong> 25 units per item for wholesale pricing
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Shopping Cart Sidebar -->
+    <div id="cartSidebar" class="cart-sidebar">
+        <div class="cart-header">
+            <h2>Shopping Cart</h2>
+            <button class="close-cart" onclick="toggleCart()">×</button>
+        </div>
+        <div class="cart-items" id="cartItems">
+            <p class="empty-cart">Your cart is empty</p>
+        </div>
+        <div class="cart-footer">
+            <div class="cart-total">
+                <strong>Total: $<span id="cartTotal">0.00</span></strong>
+            </div>
+            <button class="checkout-btn" onclick="proceedToCheckout()">Buy</button>
+        </div>
+    </div>
+
+    <div id="cartOverlay" class="cart-overlay" onclick="toggleCart()"></div>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 KitchenPro Wholesale. All rights reserved. | <a href="sneakers/index.html">Visit Sneakers Wholesale</a> | <a href="cabinetry/index.html">Visit Cabinetry Solutions</a></p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
